@@ -1,0 +1,321 @@
+body {
+	font-family: Work Sans;
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: 500;
+}
+
+header {
+	background-color: #2f6a49;
+	padding: 20px;
+	overflow: hidden;
+	
+}
+
+header h1 {
+	float: left;
+}
+
+header nav {
+	float: right;
+	margin-top: 4px;
+}
+
+nav a {
+	margin-left: 30px;
+	font-size: 16px;
+	color: #eeeeee;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+header a:hover {
+	border-bottom: 1px solid #ffb6c4;
+}
+
+.hero {
+	background-image: url("header-background.svg");
+	width: 100%;
+	background-repeat:  no-repeat;
+	background-size: cover;
+	padding: 275px 0;
+	text-align: center;
+	background-position: right center;
+}
+
+.hero h2 {
+	max-width: 800px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1;
+	padding: 0 20px;
+}
+
+h2 {
+	font-size: 80px;
+	color: #fe5504;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+.about {
+	color: #2f6a49;
+	background-color: #ffb6c4;
+	text-align: center;
+	width: 100%;
+	padding: 50px;
+}
+
+.about h3{
+	margin-bottom: 46px; 
+}
+
+.about p {
+	font-size: 26px;
+	line-height: 1.5;
+	max-width: 790px;
+	margin: 0 auto;
+}
+
+.food {
+	background-color: #ffda00;
+	overflow: hidden;
+	width: 100%;
+}
+
+.food div {
+	width: 50%;
+	float: left;
+	padding: 60px 80px 30px 80px;
+	color: #2f6a49;
+}
+
+.food img {
+	width: 50%;
+	float: left;
+}
+
+.food h4 {
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	max-width: 400px;
+	margin: 0 auto 30px auto;
+	width: 100%;
+}
+
+.food p {
+	max-width: 400px;
+	line-height: 21px;
+	margin: 0 auto 30px auto;
+	width: 100%;
+}
+
+.testimonial {
+	padding: 100px 80px;
+	background-color: #ffd7b3;
+	width: 100%;
+	text-align: center;
+}
+
+.testimonial blockquote {
+	max-width: 700px;
+	width: 100%;
+	color: #2f6a49;
+	font-size: 36px;
+	margin: 0 auto;
+}
+
+.food-squares {
+	width: 100%;
+	overflow: hidden;
+}
+
+.food-squares img {
+	float: left;
+	width: 33.333%;
+}
+
+.location-hours {
+	overflow: hidden;
+	width: 100%;
+	background-color: #2f6a49;
+}
+
+.location-hours div {
+	width: 33.333%;
+	text-align: center;
+	float: left;
+	color: #ffb6c4;
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
+.location-hours img {
+	max-width: 250px;
+	border-radius: 100%;
+}
+
+.location-hours h4, p {
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.loved {
+	text-align: center;
+	width: 100%;
+	padding: 50px;
+	color: #fe5504;
+}
+
+.loved p {
+	margin-bottom: 75px;
+}
+
+.loved img {
+	margin-right: 50px;
+	width: 150px;
+}
+
+.loved img:last-child {
+	margin-right: 0px;
+	width: 225px;
+}
+
+
+footer {
+	background-color: #ffb6c4;
+	color: #2f6a49;
+	overflow: hidden;
+	padding: 20px;
+	width: 100%;
+}
+
+footer img {
+	float: left;
+}
+
+footer p {
+	float: right;
+	margin-top: 4px;
+}
+
+@media (max-width: 1030px) {
+
+.food div {
+	width: 100%;
+}
+
+.food img {
+	width: 100%; 
+}
+	
+}
+
+
+@media (max-width: 530px) {
+
+	header h1,
+	header nav {
+		float: none;
+		font-size: 14px;
+	}
+
+	header nav {
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	nav a {
+		margin-left: 0px;
+		margin-right: 25px;
+	}
+
+	header {
+		text-align: left;
+	}
+
+	h2 {
+		font-size: 30px;
+		line-height: 110%;
+	}
+
+	.hero {
+		padding: 130px 10px;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+
+	.about p {
+		font-size: 16px;
+	}
+
+	.food h4 {
+		font-size: 30px;
+	}
+
+	.food div {
+		text-align: center;
+		padding: 25px 25px 50px 25px;
+	}
+	
+	.food p {
+		font-size: 16px;
+	}
+
+	.testimonial blockquote {
+		font-size: 30px;
+	}
+
+	.testimonial {
+		padding: 55px 25px;
+	}
+
+	.food-squares img {
+		float: none;
+		width: 100%;
+	}
+
+	.location-hours div {
+		float: none;
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 45px;
+	}
+
+	.location-hours h4,
+	.location-hours p {
+		max-width: 100%;
+		font-size: 18px;
+	}
+
+	.loved p {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	}
+
+	.loved img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	display: block;
+	}
+
+	.loved img:last-child {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	}
+
+	footer p {
+	font-size: 14px;
+	}
+	}
